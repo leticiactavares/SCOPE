@@ -14,6 +14,7 @@ head -n -1 SampleInformation.txt > SampleInformation2.txt
 mv SampleInformation2.txt SampleInformation.txt
 
 # Convert to MAP/PED
+# what is the source of this file?
 python HGDP_text_to_tped.py
 
 # Convert to PLINK BED/BIM/FAM
